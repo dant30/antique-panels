@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "./variables.css";
+@import "./animation.css";
+@import "./components.css";
+
+/* Antique Panels custom styles */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-base);
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-heading);
+}

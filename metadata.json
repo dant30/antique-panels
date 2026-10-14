@@ -1,0 +1,6 @@
+{
+  "name": "Antique Panels - Automotive Garage & Restoration",
+  "description": "Premier automotive garage, panel beating, spray painting, mechanical repairs, restoration, and digital service booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

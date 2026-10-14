@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ../../
+      dockerfile: infrastructure/docker/Dockerfile.frontend
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: ../../
+      dockerfile: infrastructure/docker/Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://antique:panels_secret@db:5432/antiquepanels_db
+      - REDIS_URL=redis://redis:6379/0
+    restart: unless-stopped
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: antique
+      POSTGRES_PASSWORD: panels_secret
+      POSTGRES_DB: antiquepanels_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+volumes:
+  pgdata:

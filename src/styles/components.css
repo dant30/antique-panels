@@ -1,0 +1,46 @@
+/* Antique Panels Component Styles */
+.automotive-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  transition: all var(--transition-normal);
+}
+
+.automotive-card:hover {
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: var(--shadow-amber-glow);
+}
+
+.metal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--radius-md);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: var(--color-primary-light);
+}
+
+.floating-action-fab {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 50;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(245, 158, 11, 0.25);
+}
+
+.popout-action-item {
+  transform-origin: bottom right;
+  transition: all var(--transition-normal);
+}
+
+.glass-surface {
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(51, 65, 85, 0.7);
+}

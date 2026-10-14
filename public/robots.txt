@@ -1,0 +1,12 @@
+# Antique Panels Automotive Workshop Robots.txt
+User-agent: *
+Allow: /
+Allow: /services/
+Allow: /vehicles/
+Allow: /gallery/
+Allow: /about/
+Allow: /contact/
+Allow: /book-service/
+
+# Sitemaps
+Sitemap: https://antiquepanels.com/sitemap.xml
