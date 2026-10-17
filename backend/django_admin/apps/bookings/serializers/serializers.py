@@ -1,0 +1,8 @@
+from rest_framework import serializers
+from ..model.models import Booking
+
+class BookingSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Booking
+        fields = '__all__'
+        read_only_fields = ['reference_number', 'created_at', 'updated_at']
