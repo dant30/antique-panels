@@ -20,4 +20,10 @@ index.html
 bun.lock
 patches/
 *.bundle
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
 todo
