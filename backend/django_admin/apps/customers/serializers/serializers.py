@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..model.models import Customer
+from ..models.models import Customer
 
 class CustomerSerializer(serializers.ModelSerializer):
     full_name = serializers.SerializerMethodField()
