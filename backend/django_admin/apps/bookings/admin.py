@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model.models import Booking
+from .models.models import Booking
 
 @admin.register(Booking)
 class BookingAdmin(admin.ModelAdmin):

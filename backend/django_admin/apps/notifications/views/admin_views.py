@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import Notification
+from ..models.models import Notification
 
 class NotificationAuditLogView(LoginRequiredMixin, ListView):
     model = Notification

@@ -1,4 +1,4 @@
-from ..model.models import Supplier
+from ..models.models import Supplier
 
 class SupplierService:
     @staticmethod

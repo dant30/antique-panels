@@ -1,4 +1,4 @@
-from ..model.models import GeneratedReport, ReportType
+from ..models.models import GeneratedReport, ReportType
 
 class ReportingService:
     @staticmethod

@@ -1,8 +1,8 @@
 import uuid
 from django.db import models
 from django.conf import settings
-from apps.vehicles.model.models import Vehicle
-from apps.bookings.model.models import Booking
+from apps.vehicles.models.models import Vehicle
+from apps.bookings.models.models import Booking
 
 class JobCardStage(models.TextChoices):
     INTAKE_QC = 'INTAKE_QC', 'Intake Inspection & Baseline QC'

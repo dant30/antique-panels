@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model.models import Invoice, InvoiceItem
+from .models.models import Invoice, InvoiceItem
 
 class InvoiceItemInline(admin.TabularInline):
     model = InvoiceItem

@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import Payment
+from ..models.models import Payment
 
 class DailyCollectionsView(LoginRequiredMixin, ListView):
     model = Payment

@@ -1,4 +1,4 @@
-from ..model.models import WorkshopService
+from ..models.models import WorkshopService
 
 class WorkshopServiceLogic:
     @staticmethod

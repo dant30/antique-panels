@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..model.models import InventoryItem
+from ..models.models import InventoryItem
 
 class InventoryItemSerializer(serializers.ModelSerializer):
     is_low_stock = serializers.BooleanField(read_only=True)

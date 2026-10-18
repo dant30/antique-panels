@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import Notification
-from ..serializer.serializers import NotificationSerializer
+from ..models.models import Notification
+from ..serializers.serializers import NotificationSerializer
 from ..permissions import NotificationPermission
 
 class NotificationViewSet(viewsets.ModelViewSet):

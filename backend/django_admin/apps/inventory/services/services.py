@@ -1,4 +1,4 @@
-from ..model.models import InventoryItem
+from ..models.models import InventoryItem
 
 class InventoryService:
     @staticmethod

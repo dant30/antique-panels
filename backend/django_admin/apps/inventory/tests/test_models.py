@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..model.models import InventoryItem, ItemCategory
+from ..models.models import InventoryItem, ItemCategory
 
 class InventoryItemModelTest(TestCase):
     def test_item(self):

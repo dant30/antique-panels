@@ -1,8 +1,8 @@
 import uuid
 from django.db import models
-from apps.customers.model.models import Customer
-from apps.vehicles.model.models import Vehicle
-from apps.services.model.models import WorkshopService
+from apps.customers.models.models import Customer
+from apps.vehicles.models.models import Vehicle
+from apps.services.models.models import WorkshopService
 
 class BookingStatus(models.TextChoices):
     PENDING = 'PENDING', 'Pending Review'

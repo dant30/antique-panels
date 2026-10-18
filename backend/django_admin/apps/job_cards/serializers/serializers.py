@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..model.models import JobCard, JobCardPhotoLog
+from ..models.models import JobCard, JobCardPhotoLog
 
 class JobCardPhotoLogSerializer(serializers.ModelSerializer):
     class Meta:

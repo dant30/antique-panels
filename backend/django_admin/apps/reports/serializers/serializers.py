@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..model.models import GeneratedReport
+from ..models.models import GeneratedReport
 
 class GeneratedReportSerializer(serializers.ModelSerializer):
     class Meta:

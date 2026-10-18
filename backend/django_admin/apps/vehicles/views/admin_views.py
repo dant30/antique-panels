@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import Vehicle
+from ..models.models import Vehicle
 
 class VehicleInventoryListView(LoginRequiredMixin, ListView):
     model = Vehicle

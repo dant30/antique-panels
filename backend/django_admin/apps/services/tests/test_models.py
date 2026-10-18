@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..model.models import WorkshopService, ServiceCategory
+from ..models.models import WorkshopService, ServiceCategory
 
 class WorkshopServiceModelTest(TestCase):
     def test_service_creation(self):

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model.models import WorkshopService
+from .models.models import WorkshopService
 
 @admin.register(WorkshopService)
 class WorkshopServiceAdmin(admin.ModelAdmin):

@@ -1,7 +1,7 @@
 import uuid
 from django.db import models
-from apps.customers.model.models import Customer
-from apps.job_cards.model.models import JobCard
+from apps.customers.models.models import Customer
+from apps.job_cards.models.models import JobCard
 
 class InvoiceStatus(models.TextChoices):
     DRAFT = 'DRAFT', 'Draft Estimate / Quotation'

@@ -1,4 +1,4 @@
-from ..model.models import User, UserRole
+from ..models.models import User, UserRole
 
 class UserService:
     @staticmethod

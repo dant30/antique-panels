@@ -1,4 +1,4 @@
-from ..model.models import Invoice
+from ..models.models import Invoice
 
 class InvoiceService:
     @staticmethod

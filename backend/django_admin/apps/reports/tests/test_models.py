@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..model.models import GeneratedReport, ReportType
+from ..models.models import GeneratedReport, ReportType
 
 class ReportModelTest(TestCase):
     def test_report(self):

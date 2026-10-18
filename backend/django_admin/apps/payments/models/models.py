@@ -1,13 +1,15 @@
 import uuid
 from django.db import models
-from apps.invoices.model.models import Invoice
+from apps.invoices.models.models import Invoice
+
 
 class PaymentMethod(models.TextChoices):
     MPESA = 'MPESA', 'Safaricom M-Pesa (C2B / Till / Paybill)'
     BANK_TRANSFER = 'BANK_TRANSFER', 'Direct Bank Wire (RTGS / EFT)'
     CREDIT_CARD = 'CREDIT_CARD', 'Credit / Debit Card (Visa, Mastercard)'
     CASH = 'CASH', 'Cash at Workshop Desk'
-    CHEQUE = 'CHEQUE', 'Banker's Cheque'
+    CHEQUE = 'CHEQUE', "Banker's Cheque"
+
 
 class PaymentStatus(models.TextChoices):
     PENDING = 'PENDING', 'Pending Verification'

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model.models import Vehicle
+from .models.models import Vehicle
 
 @admin.register(Vehicle)
 class VehicleAdmin(admin.ModelAdmin):

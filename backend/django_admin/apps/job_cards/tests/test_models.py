@@ -1,7 +1,7 @@
 from django.test import TestCase
-from apps.customers.model.models import Customer
-from apps.vehicles.model.models import Vehicle
-from ..model.models import JobCard
+from apps.customers.models.models import Customer
+from apps.vehicles.models.models import Vehicle
+from ..models.models import JobCard
 
 class JobCardModelTest(TestCase):
     def test_job_card(self):

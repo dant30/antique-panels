@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import InventoryItem
+from ..models.models import InventoryItem
 
 class LowStockAlertView(LoginRequiredMixin, ListView):
     model = InventoryItem

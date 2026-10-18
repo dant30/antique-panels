@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import Invoice
+from ..models.models import Invoice
 
 class OutstandingInvoicesView(LoginRequiredMixin, ListView):
     model = Invoice

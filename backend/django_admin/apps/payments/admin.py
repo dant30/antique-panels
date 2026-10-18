@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model.models import Payment
+from .models.models import Payment
 
 @admin.register(Payment)
 class PaymentAdmin(admin.ModelAdmin):

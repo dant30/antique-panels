@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import InventoryItem
-from ..serializer.serializers import InventoryItemSerializer
+from ..models.models import InventoryItem
+from ..serializers.serializers import InventoryItemSerializer
 from ..permissions import InventoryPermission
 
 class InventoryItemViewSet(viewsets.ModelViewSet):

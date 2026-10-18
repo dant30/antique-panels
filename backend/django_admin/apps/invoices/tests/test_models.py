@@ -1,6 +1,6 @@
 from django.test import TestCase
-from apps.customers.model.models import Customer
-from ..model.models import Invoice
+from apps.customers.models.models import Customer
+from ..models.models import Invoice
 import datetime
 
 class InvoiceModelTest(TestCase):

@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import Invoice
-from ..serializer.serializers import InvoiceSerializer
+from ..models.models import Invoice
+from ..serializers.serializers import InvoiceSerializer
 from ..permissions import InvoicePermission
 
 class InvoiceViewSet(viewsets.ModelViewSet):

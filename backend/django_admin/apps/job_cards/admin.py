@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model.models import JobCard, JobCardPhotoLog
+from .models.models import JobCard, JobCardPhotoLog
 
 class JobCardPhotoLogInline(admin.TabularInline):
     model = JobCardPhotoLog

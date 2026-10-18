@@ -1,9 +1,9 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from ..views.api import InventoryViewSet
+from ..views.api import InventoryItemViewSet
 
 router = DefaultRouter()
-router.register(r'', InventoryViewSet, basename='inventory')
+router.register(r'', InventoryItemViewSet, basename='inventory')
 
 urlpatterns = [
     path('', include(router.urls)),

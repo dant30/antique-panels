@@ -1,4 +1,4 @@
-from ..model.models import Notification, NotificationChannel, NotificationStatus
+from ..models.models import Notification, NotificationChannel, NotificationStatus
 
 class NotificationService:
     @staticmethod

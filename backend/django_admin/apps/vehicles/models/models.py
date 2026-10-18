@@ -1,5 +1,5 @@
 from django.db import models
-from apps.customers.model.models import Customer
+from apps.customers.models.models import Customer
 
 class VehicleEra(models.TextChoices):
     PRE_WAR = 'PRE_WAR', 'Pre-War (Pre-1945)'

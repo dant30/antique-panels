@@ -1,4 +1,4 @@
-from ..model.models import JobCard, JobCardStage
+from ..models.models import JobCard, JobCardStage
 
 class JobCardService:
     @staticmethod

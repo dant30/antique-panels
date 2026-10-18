@@ -1,4 +1,4 @@
-from ..model.models import Booking, BookingStatus
+from ..models.models import Booking, BookingStatus
 
 class BookingService:
     @staticmethod

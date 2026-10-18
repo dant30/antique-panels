@@ -1,4 +1,4 @@
-from ..model.models import Payment, PaymentStatus
+from ..models.models import Payment, PaymentStatus
 from apps.invoices.model.models import InvoiceStatus
 
 class PaymentService:

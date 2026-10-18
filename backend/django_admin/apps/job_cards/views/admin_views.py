@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import JobCard
+from ..models.models import JobCard
 
 class WorkshopKanbanBoardView(LoginRequiredMixin, ListView):
     model = JobCard

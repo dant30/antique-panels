@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import WorkshopService
+from ..models.models import WorkshopService
 
 class ServiceCatalogAdminView(LoginRequiredMixin, ListView):
     model = WorkshopService

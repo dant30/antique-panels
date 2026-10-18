@@ -1,4 +1,4 @@
-from ..model.models import AuditLog
+from ..models.models import AuditLog
 
 class AuditService:
     @staticmethod

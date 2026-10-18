@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import AuditLog
+from ..models.models import AuditLog
 
 class SystemAuditFeedView(LoginRequiredMixin, ListView):
     model = AuditLog

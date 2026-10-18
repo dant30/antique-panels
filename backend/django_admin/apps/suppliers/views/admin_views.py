@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import Supplier
+from ..models.models import Supplier
 
 class SupplierListView(LoginRequiredMixin, ListView):
     model = Supplier

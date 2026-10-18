@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import Vehicle
-from ..serializer.serializers import VehicleSerializer
+from ..models.models import Vehicle
+from ..serializers.serializers import VehicleSerializer
 
 class VehicleViewSet(viewsets.ModelViewSet):
     queryset = Vehicle.objects.all()

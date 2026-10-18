@@ -1,4 +1,4 @@
-from ..model.models import Vehicle, VehicleEra
+from ..models.models import Vehicle, VehicleEra
 
 class VehicleService:
     @staticmethod

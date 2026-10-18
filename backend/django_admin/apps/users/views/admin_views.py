@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from ..model.models import User
+from ..models.models import User
 
 class StaffRosterListView(LoginRequiredMixin, UserPassesTestMixin, ListView):
     model = User

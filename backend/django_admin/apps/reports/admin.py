@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model.models import GeneratedReport
+from .models.models import GeneratedReport
 
 @admin.register(GeneratedReport)
 class GeneratedReportAdmin(admin.ModelAdmin):

@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..model.models import Supplier
+from ..models.models import Supplier
 
 class SupplierModelTest(TestCase):
     def test_supplier(self):

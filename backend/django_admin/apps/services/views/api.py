@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import WorkshopService
-from ..serializer.serializers import WorkshopServiceSerializer
+from ..models.models import WorkshopService
+from ..serializers.serializers import WorkshopServiceSerializer
 from ..permissions import ServicePermission
 
 class WorkshopServiceViewSet(viewsets.ModelViewSet):

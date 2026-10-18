@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import Booking
-from ..serializer.serializers import BookingSerializer
+from ..models.models import Booking
+from ..serializers.serializers import BookingSerializer
 from ..permissions import BookingPermission
 
 class BookingViewSet(viewsets.ModelViewSet):

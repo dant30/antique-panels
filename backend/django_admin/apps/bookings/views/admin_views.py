@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from ..model.models import Booking
+from ..models.models import Booking
 
 class BookingCalendarView(LoginRequiredMixin, ListView):
     model = Booking

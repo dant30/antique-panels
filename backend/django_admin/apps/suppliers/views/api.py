@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import Supplier
-from ..serializer.serializers import SupplierSerializer
+from ..models.models import Supplier
+from ..serializers.serializers import SupplierSerializer
 from ..permissions import SupplierPermission
 
 class SupplierViewSet(viewsets.ModelViewSet):

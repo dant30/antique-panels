@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import JobCard
-from ..serializer.serializers import JobCardSerializer
+from ..models.models import JobCard
+from ..serializers.serializers import JobCardSerializer
 from ..permissions import JobCardPermission
 
 class JobCardViewSet(viewsets.ModelViewSet):

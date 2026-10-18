@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..model.models import Notification, NotificationChannel
+from ..models.models import Notification, NotificationChannel
 
 class NotificationModelTest(TestCase):
     def test_notification(self):

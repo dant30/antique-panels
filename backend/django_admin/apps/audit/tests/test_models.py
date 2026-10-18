@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..model.models import AuditLog
+from ..models.models import AuditLog
 
 class AuditLogModelTest(TestCase):
     def test_audit(self):

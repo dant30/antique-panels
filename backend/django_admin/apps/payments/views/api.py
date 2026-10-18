@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ..model.models import Payment
-from ..serializer.serializers import PaymentSerializer
+from ..models.models import Payment
+from ..serializers.serializers import PaymentSerializer
 from ..permissions import PaymentPermission
 
 class PaymentViewSet(viewsets.ModelViewSet):
