@@ -11,10 +11,15 @@ export interface AppConfig {
   description: string;
   phone: string;
   phoneRaw: string;
+  phoneAlt: string;
+  phoneAltRaw: string;
   whatsapp: string;
   whatsappRaw: string;
+  whatsappAlt: string;
+  whatsappAltRaw: string;
   whatsappDefaultMessage: string;
   email: string;
+  supportEmail: string;
   address: {
     street: string;
     neighborhood: string;
@@ -45,6 +50,7 @@ export interface AppConfig {
   emergencySupport: {
     available: boolean;
     phone: string;
+    phoneAlt: string;
   };
 }
 
@@ -54,12 +60,17 @@ export const appConfig: AppConfig = {
   tagline: 'Precision Craftsmanship, Modern Automotive Excellence',
   description:
     'Premier automotive workshop specializing in bespoke panel beating, master spray painting, computerized diagnostics, engine restoration, and complete vehicle rebuilds.',
-  phone: '+254 724 167 076',
-  phoneRaw: '+254724167076',
-  whatsapp: '+254 724 167 076',
-  whatsappRaw: '254724167076',
+  phone: '+254 721 757 776',
+  phoneRaw: '+254721757776',
+  phoneAlt: '+254 703 758 016',
+  phoneAltRaw: '+254703758016',
+  whatsapp: '+254 721 757 776',
+  whatsappRaw: '254721757776',
+  whatsappAlt: '+254 703 758 016',
+  whatsappAltRaw: '254703758016',
   whatsappDefaultMessage: 'Hello Antique Panels, I would like to inquire about garage services and vehicle booking.',
-  email: 'dankarish.dk@gmail.com',
+  email: 'info@antiquepanels.co.ke',
+  supportEmail: 'support@antiquepanels.co.ke',
   address: {
     street: 'Workshop Ridge, Enterprise Industrial Park, Bay 14',
     neighborhood: 'Commercial Area',
@@ -92,6 +103,7 @@ export const appConfig: AppConfig = {
   },
   emergencySupport: {
     available: true,
-    phone: '+254 724 167 076',
+    phone: '+254 721 757 776',
+    phoneAlt: '+254 703 758 016',
   },
 };
