@@ -1,6 +1,6 @@
 {
-  "name": "Antique Panels - Automotive Garage & Restoration",
-  "description": "Premier automotive garage, panel beating, spray painting, mechanical repairs, restoration, and digital service booking.",
+  "name": "Antique Panels – Automotive Garage & Classic Restoration",
+  "description": "Premier automotive workshop specializing in bespoke panel beating, 65°C oven spray painting, computerized chassis alignment, and full classic vehicle rebuilds.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
